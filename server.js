@@ -37,7 +37,7 @@ app.get('/', function (req, res) {
 })
 
 app.post('/Login',function(req,res){
-    // console.log(req.body.username)
+    console.log(req.body.username)
     fuctions.Login(req,res);
    
   });
