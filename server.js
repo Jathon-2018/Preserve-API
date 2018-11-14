@@ -36,12 +36,17 @@ app.get('/', function (req, res) {
   console.log("homeStart")
 })
 
+
+
 app.post('/Login',function(req,res){
     console.log(req.body.username)
     fuctions.Login(req,res);
    
   });
  
+
+
+
 // port connect server 
 app.listen(port,"0.0.0.0",function () {
   console.log("Listening on Port "+port);
