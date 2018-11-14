@@ -2,7 +2,7 @@ var app = require('express')();
 var bodyParser = require('body-parser');
 require('dotenv').config();
 var mysql = require('mysql');
-var appFuctions = require('./appFuctions.js');
+var fuctions = require('./fuctions.js');
 
 app.use(function (req, res, next) {
 
